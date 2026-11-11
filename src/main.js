@@ -16,7 +16,7 @@ if ("scrollRestoration" in history) history.scrollRestoration = "manual";
 window.scrollTo(0, 0);
 
 /* ───────────── Fill in personal bits ───────────── */
-$$("[data-name]").forEach((el) => (el.textContent = CONFIG.name));
+$$("[data-name]").forEach((el) => (el.textContent = CONFIG.names?.[el.dataset.name] || CONFIG.name));
 $$("[data-from]").forEach((el) => (el.textContent = CONFIG.from));
 $$("[data-day]").forEach((el) => (el.textContent = pad(CONFIG.day)));
 $$("[data-month]").forEach((el) => (el.textContent = pad(CONFIG.month)));

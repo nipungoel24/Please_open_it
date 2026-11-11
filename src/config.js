@@ -6,6 +6,14 @@ export const CONFIG = {
   // Her name (shows on the intro, nav, hero, envelope and letter)
   name: "Aashi",
 
+  // Her nicknames, used in different spots around the page
+  names: {
+    intro: "Aashi", // opening "open me" screen
+    nav: "soona", // top-left "for ___"
+    hero: "my bachaa", // "Today is all about ___"
+    envelope: "my chocopie", // written on the envelope
+  },
+
   // Your name (signature in the footer + letter)
   from: "Nipun",
 
@@ -22,9 +30,9 @@ export const CONFIG = {
   photos: [
     { src: "photos/01.jpg", caption: "where it all began ♡", wide: true },
     { src: "photos/02.jpg", caption: "my favourite person" },
-    { src: "photos/03.jpg", caption: "us, under the neon lights", wide: true },
+    { src: "photos/03.jpg", caption: "you, me & our accidental photobomber", wide: true },
     { src: "photos/04.jpg", caption: "matching bunny ears, obviously" },
-    { src: "photos/05.jpg", caption: "stopping to smell the flowers" },
+    { src: "photos/05.jpg", caption: "live concert: rose mic edition 🎤" },
     { src: "photos/06.jpg", caption: "flowers for my flower" },
     { src: "photos/07.jpg", caption: "snack time is serious" },
     { src: "photos/08.jpg", caption: "that giggle gets me every time", wide: true },
@@ -37,8 +45,8 @@ export const CONFIG = {
     { src: "photos/15.jpg", caption: "my whole heart", wide: true },
     { src: "photos/16.jpg", caption: "main character energy" },
     { src: "photos/17.jpg", caption: "flowers + you = perfect" },
-    { src: "photos/18.jpg", caption: "softest glow" },
     { src: "photos/19.jpg", caption: "little adventures with you" },
+    { src: "photos/20.jpg", caption: "flowers in her hair ♡" },
     { src: "photos/21.jpg", caption: "peace & love", wide: true },
     { src: "photos/22.jpg", caption: "us, being us" },
     { src: "photos/23.jpg", caption: "my cutest girl" },
@@ -70,7 +78,7 @@ I hope this year is gentle with you. I hope it brings you slow mornings, happy s
 
 And whatever it brings, I will be right there next to you.
 
-Happy birthday, my favourite person.
+Happy birthday, my soona, my chocopie, my bachaa, my favourite person.
 
 Forever yours,
 {from}`,
