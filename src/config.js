@@ -28,9 +28,9 @@ export const CONFIG = {
   heroPhoto: "photos/hero.jpg",
   // wide: true → landscape polaroid (so nobody gets cropped out)
   photos: [
-    { src: "photos/01.jpg", caption: "where it all began ♡", wide: true },
+    { src: "photos/01.jpg", caption: "the time you came to my college for my fest", wide: true },
     { src: "photos/02.jpg", caption: "my favourite person" },
-    { src: "photos/03.jpg", caption: "you, me & our accidental photobomber", wide: true },
+    { src: "photos/03.jpg", caption: "just you & me ♡", wide: true },
     { src: "photos/04.jpg", caption: "matching bunny ears, obviously" },
     { src: "photos/05.jpg", caption: "live concert: rose mic edition 🎤" },
     { src: "photos/06.jpg", caption: "flowers for my flower" },
