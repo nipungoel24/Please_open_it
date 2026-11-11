@@ -58,7 +58,7 @@ export const CONFIG = {
     { title: "your heart", note: "Kind to everyone, always, even on hard days." },
     { title: "your eyes", note: "I lose every staring contest on purpose." },
     { title: "your hugs", note: "My favourite place in the whole world." },
-    { title: "your chaos", note: "The cutest kind of mess. Never change." },
+    { title: "your smile", note: "The one thing I would keep forever, if I could keep just one." },
     { title: "your voice", note: "My favourite sound at the end of a long day." },
     { title: "just you", note: "All of it, every version, every single day." },
   ],
@@ -72,11 +72,13 @@ Happy birthday, my love. ♡
 
 I wanted to make you something you could open again and again, so here it is: a tiny corner of the internet that belongs only to you.
 
-Thank you for every laugh, every late night call, and every time you held my hand like it was the most natural thing in the world. You make my days softer and my life so much brighter.
+From the very first day we were together, I've loved you, and I'll keep loving you for the rest of my life. Every laugh, every late night call, every little hangout holds a special place in my heart.
 
-I hope this year is gentle with you. I hope it brings you slow mornings, happy surprises, and every single thing you have been quietly wishing for.
+We haven't always had it easy. We've had our share of ups and downs, but even through all of that we are still here, stronger than before, still choosing each other. I'm so grateful for that, and for you.
 
-And whatever it brings, I will be right there next to you.
+Thank you for your love, your patience, and your presence in my life. I hope this year is gentle with you, and brings you slow mornings, happy surprises, and every single thing you've been quietly wishing for.
+
+Here's to many more birthdays, countless fun, and a lifetime of love together.
 
 Happy birthday, my soona, my chocopie, my bachaa, my favourite person.
 

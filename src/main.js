@@ -75,7 +75,7 @@ $("#arches").innerHTML = CONFIG.reasons
 
 /* ───────────── Board (photos + little notes) ───────────── */
 const notes = {
-  2: `<div class="note-card note-card--poster" style="--c:#a10728;--ink:#fec6d3"><span>Your</span><span>smile ♡</span></div>`,
+  2: `<div class="note-card note-card--poster" style="--c:#a10728;--ink:#fec6d3"><span>Soft</span><span>&amp; sweet</span></div>`,
   5: `<div class="note-card note-card--quote" style="--c:#bad4ed">you + me,<br><b>always</b></div>`,
   8: `<span class="badge">birthday girl ✦</span>`,
   10: `<div class="note-card note-card--hand" style="--c:#fec6d3">you are my favourite notification ♡</div>`,
