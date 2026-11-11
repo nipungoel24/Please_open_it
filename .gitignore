@@ -25,3 +25,6 @@ dist-ssr
 
 # full-size photo originals (web copies live in public/photos)
 originals/
+
+.vercel
+.env*
