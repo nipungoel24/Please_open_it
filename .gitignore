@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# full-size photo originals (web copies live in public/photos)
+originals/

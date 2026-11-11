@@ -1,13 +1,194 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="is-locked">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>For Aashi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#fcf8f3" />
+    <title>Happy Birthday ♡</title>
+    <meta name="description" content="A little corner of the internet, made just for you." />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=Onest:wght@300..700&family=Playwrite+US+Trad:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <!-- ───────── Intro / gift screen ───────── -->
+    <div class="intro" id="intro" aria-live="polite">
+      <div class="intro__half intro__half--l"></div>
+      <div class="intro__half intro__half--r"></div>
+      <div class="intro__content">
+        <p class="intro__kicker">psst&hellip; this one is for</p>
+        <p class="intro__name"><span data-name></span></p>
+        <button class="seal" id="openGift" type="button" aria-label="Open your surprise">
+          <span class="seal__ring"></span>
+          <span class="seal__text">open<br />me</span>
+        </button>
+        <p class="intro__hint">a little surprise, made with a lot of love</p>
+      </div>
+    </div>
+
+    <!-- ───────── Nav ───────── -->
+    <header class="nav">
+      <a class="nav__logo" href="#hero">for <b data-name></b></a>
+      <a class="pill" href="#letter">read my letter <span aria-hidden="true">♡</span></a>
+    </header>
+
+    <main id="main">
+      <!-- ───────── Hero ───────── -->
+      <section class="hero" id="hero">
+        <div class="hero__sky" id="sky" aria-hidden="true"></div>
+
+        <h1 class="hero__mark">
+          <span class="hero__word hero__word--light">happy</span>
+          <span class="hero__word hero__word--bold">birthday</span>
+          <span class="hero__star" aria-hidden="true">✦</span>
+        </h1>
+
+        <div class="hero__rule">
+          <span class="hero__num" data-day></span>
+          <span class="hero__line"></span>
+          <span class="hero__tag">to the loveliest girl in the world</span>
+          <span class="hero__line"></span>
+          <span class="hero__num" data-month></span>
+        </div>
+
+        <div class="hero__grid">
+          <div class="hero__lede">
+            <p class="text-lg">
+              Today is all about <b data-name></b>. The kindest heart, the prettiest smile, and the
+              reason ordinary days feel like a soft little holiday.
+            </p>
+            <a class="btn" href="#reasons">start scrolling <span aria-hidden="true">↓</span></a>
+          </div>
+
+          <figure class="hero__dome">
+            <div class="dome" id="heroPhoto"></div>
+            <figcaption class="sticky-note">today we celebrate <b>you</b> ♡</figcaption>
+          </figure>
+
+          <ul class="hero__dots" aria-hidden="true">
+            <li style="--c: var(--ox)"></li>
+            <li style="--c: var(--crimson)"></li>
+            <li style="--c: var(--peony)"></li>
+            <li style="--c: var(--blush)"></li>
+            <li style="--c: var(--baby)"></li>
+            <li style="--c: var(--powder)"></li>
+            <li style="--c: var(--linen)"></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ───────── Ribbon ───────── -->
+      <div class="ribbon" aria-hidden="true">
+        <div class="ribbon__track">
+          <span>happy birthday</span><i>✦</i><span>make a wish</span><i>♡</i><span>eat the cake</span><i>✦</i><span>you deserve it all</span><i>♡</i>
+          <span>happy birthday</span><i>✦</i><span>make a wish</span><i>♡</i><span>eat the cake</span><i>✦</i><span>you deserve it all</span><i>♡</i>
+        </div>
+      </div>
+
+      <!-- ───────── Manifesto ───────── -->
+      <section class="manifesto" id="manifesto">
+        <p class="eyebrow eyebrow--light"><span></span>a small note before everything<span></span></p>
+        <p class="manifesto__text" id="manifestoText">
+          A few years ago, on this very day, the world got a little <b>softer.</b> It got the
+          <b>kindest heart,</b> the <b>prettiest smile</b> and a laugh that fixes bad days. So today,
+          rest. Be spoiled. Eat the cake. You deserve <b>every beautiful thing,</b> and then a little
+          more.
+        </p>
+        <p class="manifesto__note">P.S. scroll slowly, there is a letter waiting at the end ♡</p>
+      </section>
+
+      <!-- ───────── Reasons ───────── -->
+      <section class="reasons" id="reasons">
+        <div class="section-head">
+          <h2 class="h2 embolden">Reasons I love you, <b>softly</b></h2>
+          <p class="text-md">
+            Seven little reasons, seven soft colours. The full list is much, much longer, but the page
+            would never end.
+          </p>
+        </div>
+        <ol class="arches" id="arches"></ol>
+      </section>
+
+      <!-- ───────── Board / photos ───────── -->
+      <section class="board" id="board">
+        <div class="section-head section-head--center">
+          <h2 class="h2 embolden">Things I'm keeping <b>forever</b></h2>
+          <p class="text-md">Our little moodboard. Tap a photo to see it bigger.</p>
+        </div>
+        <ul class="board__wall" id="wall"></ul>
+      </section>
+
+      <!-- ───────── Wish ───────── -->
+      <section class="wish" id="wish">
+        <div class="section-head section-head--center">
+          <h2 class="h2 embolden">Make a wish, <b>my love</b></h2>
+          <p class="text-md" id="wishHint">Close your eyes, make a wish, then tap each candle to blow it out.</p>
+        </div>
+
+        <div class="cake" id="cake">
+          <div class="cake__candles" id="candles"></div>
+          <div class="cake__tier cake__tier--top"><span class="cake__dots"></span></div>
+          <div class="cake__tier cake__tier--bottom"><span class="cake__text">happy birthday</span></div>
+          <div class="cake__plate"></div>
+        </div>
+
+        <button class="btn btn--ghost" id="blowAll" type="button">blow them all out</button>
+        <p class="wish__done" id="wishDone" aria-live="polite">your wish is on its way <span>✦</span></p>
+      </section>
+
+      <!-- ───────── Letter ───────── -->
+      <section class="letter" id="letter">
+        <div class="section-head section-head--center">
+          <h2 class="h2 embolden">One last thing, <b>a letter</b></h2>
+          <p class="text-md" id="letterHint">I wrote you something. Tap the envelope to open it.</p>
+        </div>
+
+        <div class="envelope-wrap" id="envelopeWrap">
+          <button class="envelope" id="envelope" type="button" aria-label="Open the letter">
+            <span class="envelope__back"></span>
+            <span class="envelope__paper"><span></span><span></span><span></span></span>
+            <span class="envelope__pocket"></span>
+            <span class="envelope__to">for <span data-name></span></span>
+            <span class="envelope__flap"></span>
+            <span class="envelope__seal">♡</span>
+          </button>
+        </div>
+
+        <article class="paper" id="paper" hidden>
+          <div class="paper__tape" aria-hidden="true"></div>
+          <div class="paper__text" id="letterText"></div>
+          <button class="paper__skip" id="skipWriting" type="button">show it all at once</button>
+        </article>
+      </section>
+    </main>
+
+    <!-- ───────── Footer ───────── -->
+    <footer class="footer">
+      <p class="footer__big">I love you, <b>endlessly.</b></p>
+      <ul class="hero__dots footer__dots" aria-hidden="true">
+        <li style="--c: var(--peony)"></li>
+        <li style="--c: var(--blush)"></li>
+        <li style="--c: var(--baby)"></li>
+        <li style="--c: var(--powder)"></li>
+        <li style="--c: var(--linen)"></li>
+      </ul>
+      <p class="footer__small">made with ♡ by <span data-from></span> &middot; <span data-fulldate></span></p>
+      <a class="pill pill--light" href="#hero" id="again">start again ↑</a>
+    </footer>
+
+    <!-- ───────── Lightbox ───────── -->
+    <div class="lightbox" id="lightbox" hidden>
+      <figure class="lightbox__card">
+        <img id="lightboxImg" alt="" />
+        <figcaption id="lightboxCap"></figcaption>
+      </figure>
+      <button class="lightbox__close" id="lightboxClose" type="button" aria-label="Close">×</button>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
   </body>
 </html>
