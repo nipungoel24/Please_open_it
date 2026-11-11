@@ -4,7 +4,7 @@
 
 export const CONFIG = {
   // Her name (shows on the intro, nav, hero, envelope and letter)
-  name: "my love",
+  name: "Aashi",
 
   // Your name (signature in the footer + letter)
   from: "Nipun",
